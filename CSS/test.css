@@ -1,0 +1,859 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar {
+    width: 100%;
+    height: auto;
+}
+
+.navbar .nav {
+    position: fixed;
+    width: 100%;
+    background-color: #f3f4f6;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 100px;
+    align-items: center;
+}
+
+.navbar .nav ul li {
+    margin: 10px;
+}
+
+.navbar .nav ul li :hover {
+    color: #0d6efd;
+}
+
+.navbar .nav ul li button {
+    border: 1px solid #6c757d;
+    border-radius: 5px;
+    color: #6c757d;
+    padding: 8px 20px;
+    cursor: pointer;
+}
+
+.navbar .nav ul li button:hover {
+    background-color: #0d6efd;
+    color: aliceblue;
+    transition: 0.5s;
+}
+
+.navbar .nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #6c757d;
+    padding: 0px 5px;
+}
+
+.navbar .nav .logo {
+    margin: 15px;
+    margin-right: 100px;
+}
+
+.navbar .nav .logo a {
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: bold;
+    color: #6c757d;
+    font-family: Raleway, sans-serif;
+}
+
+.navbar .nav .logo a .first {
+    color: #fd7e14;
+}
+
+.navbar .nav .logo a .second {
+    color: #01b8dc;
+}
+
+/*================================================End nav===================================================*/
+.home {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.home .pac {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.home .pac .photo {
+    width: 40%;
+    height: 450px;
+    margin-top: 65px;
+}
+
+.home .pac .photo img {
+    width: 100%;
+    height: 100%;
+}
+
+/*===============================End photo================================*/
+
+.home .pac .par1 {
+    width: 38%;
+    height: 400px;
+    margin-top: 150px;
+    text-align: right;
+}
+
+.home .pac .par1 h1 {
+    font-family: Raleway, sans-serif;
+    font-size: 48px;
+    margin: 10px;
+    color: #5f687b;
+}
+
+.home .pac .par1 p {
+    font-size: 24px;
+    font-weight: 200;
+    margin: 10px;
+    color: #6c757d;
+}
+
+.home .pac .par1 button {
+    margin: 10px;
+    padding: 11px 38px;
+    border-radius: 5px;
+    border: #01b8dc;
+    background-color: #01b8dc;
+    cursor: pointer;
+}
+
+.home .pac .par1 button:hover {
+    background-color: #0069B9;
+    transition: 0.5s;
+}
+
+/*===============================End par1=================================*/
+
+.home .pac .par2 {
+    width: 45%;
+    height: 230px;
+    text-align: right;
+    background-color: #e9ecef;
+}
+
+.home .pac .par2 i {
+    font-size: 32px;
+    color: #01b8dc;
+    margin: 20px 15px;
+}
+
+.home .pac .par2 a {
+    text-decoration: none;
+}
+
+.home .pac .par2 a h2 {
+    color: #5f687b;
+    margin: 15px;
+}
+
+.home .pac .par2 p {
+    color: #6c757d;
+    margin: 15px;
+}
+
+/*===============================end par2=================================*/
+
+.home .pac .par3 {
+    width: 45%;
+    height: 230px;
+    text-align: right;
+    background-color: #e9ecef;
+}
+
+.home .pac .par3 i {
+    font-size: 32px;
+    color: #01b8dc;
+    margin: 20px 15px;
+}
+
+.home .pac .par3 a {
+    text-decoration: none;
+}
+
+.home .pac .par3 a h2 {
+    color: #5f687b;
+    margin: 15px;
+}
+
+.home .pac .par3 p {
+    color: #6c757d;
+    margin: 15px;
+}
+
+/*==============================End par3===================================*/
+
+.home .pac .photo2 {
+    width: 38%;
+    height: 400px;
+    margin-top: 50px;
+}
+
+.home .pac .photo2 img {
+    width: 100%;
+    height: 100%;
+}
+
+/*==============================End photo2=================================*/
+
+.home .pac .about {
+    width: 42%;
+    height: 400px;
+    margin-top: 50px;
+    text-align: right;
+}
+
+.home .pac .about h1 {
+    color: #5f687b;
+    margin: 10px;
+}
+
+.home .pac .about p {
+    font-size: 17px;
+    color: #6c757d;
+    margin: 10px;
+}
+
+/*===============================End about=================================*/
+/*================================================End pac=================================================*/
+
+.home .survices {
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+    background-color: #e9ecef;
+}
+
+.home .survices h1 {
+    padding-top: 80px;
+    color: #5f687b;
+    display: block;
+}
+
+.home .survices p {
+    padding: 30px;
+    color: #5f687b;
+}
+
+.home .survices .bigbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.home .survices .bigbox .box {
+    width: 20%;
+    height: 150px;
+    margin: 20px;
+    background-color: aliceblue;
+}
+
+.home .survices .bigbox .box .icon i {
+    font-size: 32px;
+    color: #0d6efd;
+    padding-top: 20px;
+    padding-bottom: 35px;
+}
+
+.home .survices .bigbox .box a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #6c757d;
+}
+
+.home .survices .bigbox .box :hover {
+    color: #0d6efd;
+    transition: 0.5s;
+}
+
+/*============================================End Survices================================================*/
+
+.home .custmor {
+    width: 100%;
+    height: 200px;
+    padding-top: 80px;
+    text-align: center;
+    background-color: #e9ecef;
+}
+
+.home .custmor h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #5f687b;
+    padding-top: 45px;
+}
+
+.home .custmor p {
+    color: #6c757d;
+    padding-top: 35px;
+}
+
+/*============================================End custmor=================================================*/
+
+.home .contact {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.home .contact h1 {
+    width: 100%;
+    font-size: 32px;
+    color: #5f687b;
+    font-weight: bold;
+    padding-top: 45px;
+}
+
+.home .contact p {
+    width: 100%;
+    margin-bottom: 40px;
+    color: #6c757d;
+    padding-top: 35px;
+}
+
+.home .contact .form {
+    width: 47%;
+    height: 775px;
+    background-color: #e9ecef;
+    border-top: 5px solid #0d6efd;
+    border-bottom: 5px solid #0d6efd;
+}
+
+.home .contact .form .B {
+    width: 100%;
+    height: 100px;
+    margin-top: 30px;
+}
+
+.home .contact .form .B .name {
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+.home .contact .form .B .name label {
+    display: block;
+    text-align: right;
+    margin-right: 30px;
+}
+
+.home .contact .form .B .name input {
+    width: 75%;
+    text-align: right;
+    padding: 10px 10px;
+    line-height: 1.5px;
+    border-radius: 5px;
+}
+
+.home .contact .form .B .mail {
+    width: 50%;
+    height: 100%;
+}
+
+.home .contact .form .B .mail label {
+    display: block;
+    text-align: right;
+    margin-right: 30px;
+}
+
+.home .contact .form .B .mail input {
+    width: 75%;
+    padding: 10px 10px;
+    line-height: 1.5px;
+    text-align: right;
+    line-height: 1.5px;
+    border-radius: 5px;
+}
+
+/*-------------------------------------------------*/
+.home .contact .form .sub {
+    width: 100%;
+    height: 100px;
+}
+
+.home .contact .form .sub label {
+    width: 100%;
+    float: right;
+    text-align: right;
+    padding-right: 30px;
+}
+
+.home .contact .form .sub input {
+    width: 88%;
+    padding: 10px 10px;
+    text-align: right;
+    line-height: 1.5px;
+}
+
+/*-------------------------------------------------*/
+.home .contact .form .message {
+    width: 100%;
+}
+
+.home .contact .form .message .message1 {
+    width: 100%;
+    height: 100%;
+}
+
+.home .contact .form .message .message1 label {
+    width: 100%;
+    float: right;
+    text-align: right;
+    padding-right: 30px;
+}
+
+.home .contact .form .message .message1 textarea {
+    width: 88%;
+    height: 200px;
+    padding: 10px 10px;
+    line-height: 1.5;
+    text-align: right;
+}
+
+/*-------------------------------------------------*/
+.home .contact .form .bot {
+    width: 100%;
+    height: 50px;
+    padding-top: 20px;
+}
+
+.home .contact .form .bot button {
+    padding: 15px 25px;
+    background-color: #01b8dc;
+    border: 1px solid #e9ecef;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.home .contact .form .bot button:hover {
+    background-color: #0d6efd;
+    transition: 0.5s;
+}
+
+/*==================================end form=================================*/
+.home .contact .data {
+    width: 35%;
+    height: 775px;
+    text-align: right;
+    background-color: #e9ecef;
+    border-top: 5px solid #0d6efd;
+    border-bottom: 5px solid #0d6efd;
+
+}
+
+.home .contact .data .D1 {
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 10px;
+}
+
+.home .contact .data .D1 i {
+    width: 10%;
+    font-size: 22px;
+    float: left;
+    color: #0d6efd;
+    cursor: pointer;
+    margin: 0px;
+    padding-top: 45px;
+}
+
+.home .contact .data .D1 h1 {
+    width: 90%;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.home .contact .data .D1 p {
+    width: 100%;
+    font-size: 16px;
+    margin: 0px;
+    padding-top: 15px;
+}
+
+/*=====================================*/
+.home .contact .data .D2 {
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home .contact .data .D2 i {
+    width: 10%;
+    font-size: 22px;
+    float: left;
+    color: #0d6efd;
+    cursor: pointer;
+    margin: 0px;
+    padding-top: 45px;
+}
+
+.home .contact .data .D2 h1 {
+    width: 90%;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.home .contact .data .D2 p {
+    width: 100%;
+    font-size: 16px;
+    margin: 0px;
+    padding-top: 15px;
+}
+
+/*=======================================*/
+.home .contact .data .D3 {
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home .contact .data .D3 i {
+    width: 10%;
+    font-size: 22px;
+    float: left;
+    color: #0d6efd;
+    cursor: pointer;
+    margin: 0px;
+    padding-top: 45px;
+}
+
+.home .contact .data .D3 h1 {
+    width: 90%;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.home .contact .data .D3 p {
+    width: 100%;
+    font-size: 16px;
+    margin: 0px;
+    padding-top: 15px;
+}
+
+/*=======================================*/
+.home .contact .data iframe {
+    width: 90%;
+    padding-right: 20px;
+    padding-top: 25px;
+}
+
+/*===================================end data================================*/
+/*===============================================End contact==============================================*/
+
+.home .botbar {
+    width: 100%;
+    background-color: #f3f4f6;
+    text-align: center;
+}
+
+.home .botbar h1 {
+    font-size: 38px;
+    font-family: Raleway, sans-serif;
+    font-weight: 900;
+    color: #5f687b;
+    padding-top: 70px;
+}
+
+.home .botbar button {
+    font-size: 20px;
+    background-color: #e9ecef;
+    color: #6c757d;
+    padding: 10px;
+    cursor: pointer;
+    margin: 50px 5px;
+    border: #e9ecef;
+}
+
+.home .botbar button :hover {
+    color: #fff;
+    background-color: #0069B9;
+    transition: 0.5s;
+}
+
+.home .botbar .p1 {
+    float: left;
+    color: #6c757d;
+    padding: 40px;
+}
+
+.home .botbar .p1 span {
+    font-weight: bold;
+}
+
+.home .botbar .p2 {
+    float: right;
+    color: #6c757d;
+    padding: 40px;
+}
+
+.home .botbar .p2 a {
+    text-decoration: none;
+}
+
+.home .botbar .p2 a span {
+    color: #14c871;
+    font-weight: 700;
+}
+
+.home .botbar .p2 a :hover {
+    color: #0d6efd;
+    transition: 0.5s;
+}
+
+/*===============================================End botbar===============================================*/
+
+/*****************larg***************/
+@media (max-width: 950px) {
+    .navbar .nav ul {
+        margin-left: 20px;
+    }
+
+    .navbar .nav ul li {
+        margin: 5px;
+    }
+
+    .navbar .nav .logo {
+        margin-right: 20px;
+    }
+
+    /*------------------end nav----------------*/
+    .home .pac .about {
+        width: 90%;
+    }
+
+    .home .pac .about p {
+        font-size: 18px;
+    }
+
+    /*----------------end about----------------*/
+    .home .pac .photo2 {
+        width: 80%;
+    }
+
+    /*----------------end photo----------------*/
+    .home .survices p {
+        font-size: 18px;
+    }
+
+    .home .survices .bigbox .box {
+        width: 25%;
+    }
+
+    /*--------------end survices---------------*/
+    .home .contact .form {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+
+    .home .contact .data {
+        width: 80%;
+        margin-top: 10px;
+    }
+
+    /*--------------end contact---------------*/
+}
+
+/****************Mediam**************/
+@media (max-width: 750px) {
+    .navbar .nav ul li {
+        display: none;
+    }
+
+    .navbar .nav .logo {
+        padding-right: 32%;
+    }
+
+    /*------------------end nav----------------*/
+    .home .pac .photo {
+        width: 80%;
+    }
+
+    /*-----------------------------*/
+    .home .pac .par1 {
+        width: 90%;
+    }
+
+    /*-----------------------------*/
+    .home .pac .par2 {
+        width: 90%;
+        margin-top: 10px;
+    }
+
+    /*-----------------------------*/
+    .home .pac .par3 {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+
+    /*-----------------------------*/
+    .home .pac .about {
+        width: 90%;
+    }
+
+    .home .pac .about p {
+        font-size: 18px;
+    }
+
+    /*-----------------------------*/
+    .home .pac .photo2 {
+        width: 80%;
+    }
+
+    /*-----------------------------*/
+    .home .survices p {
+        font-size: 18px;
+    }
+
+    /*-----------------------------end pac-------------------------*/
+    .home .custmor h1 {
+        padding-top: 25px;
+    }
+
+    .home .custmor p {
+        font-size: 18px;
+    }
+
+    /*--------------------------end customr------------------------*/
+    .home .survices .bigbox .box {
+        width: 30%;
+    }
+
+    /*--------------------------end survices-----------------------*/
+    .home .contact p {
+        font-size: 18px;
+    }
+
+    .home .contact .form {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+
+    .home .contact .data {
+        width: 80%;
+        margin-top: 10px;
+    }
+
+    /*--------------------------end contact------------------------*/
+    .home .botbar .p1 {
+        float: none;
+    }
+
+    .home .botbar .p2 {
+        float: none;
+    }
+
+    /*--------------------------end botbar------------------------*/
+}
+
+/*****************Small**************/
+@media (max-width: 550px) {
+    .navbar .nav ul li {
+        display: none;
+    }
+
+    .navbar .nav .logo {
+        padding-right: 30%;
+    }
+
+    /*------------------end nav----------------*/
+    .home .pac .photo {
+        width: 80%;
+    }
+
+    /*-----------------------------*/
+    .home .pac .par1 {
+        width: 90%;
+    }
+
+    /*-----------------------------*/
+    .home .pac .par2 {
+        width: 90%;
+        margin-top: 10px;
+    }
+
+    /*-----------------------------*/
+    .home .pac .par3 {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+
+    /*-----------------------------*/
+    .home .pac .about {
+        width: 90%;
+        margin-bottom: 60px;
+    }
+
+    .home .pac .about p {
+        font-size: 18px;
+    }
+
+    /*-----------------------------*/
+    .home .pac .photo2 {
+        width: 80%;
+        margin-top: 60px;
+    }
+
+    /*-----------------------------*/
+    .home .survices p {
+        font-size: 18px;
+    }
+
+    /*-----------------------------end pac-------------------------*/
+    .home .survices .bigbox .box {
+        width: 70%;
+    }
+
+    /*--------------------------end survices-----------------------*/
+    .home .custmor h1 {
+        padding-top: 25px;
+    }
+
+    .home .custmor p {
+        font-size: 18px;
+    }
+
+    /*--------------------------end customr------------------------*/
+    .home .contact p {
+        font-size: 18px;
+    }
+
+    .home .contact .form {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+
+    .home .contact .data {
+        width: 80%;
+        margin-top: 10px;
+    }
+
+    /*--------------------------end contact------------------------*/
+    .home .botbar .p1 {
+        float: none;
+    }
+
+    .home .botbar .p2 {
+        float: none;
+    }
+
+    /*--------------------------end botbar------------------------*/
+}
